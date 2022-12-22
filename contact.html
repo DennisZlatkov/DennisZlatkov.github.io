@@ -1,0 +1,91 @@
+<html>
+   <head
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" type="text/css" href="csscontact.css" /> 
+   <script src="Javacontact.js"></script>
+   
+   </head>
+   <body>
+
+      <div class="header">
+
+         <nav class="navbar">
+           <div class="logo"> 
+             
+             <img src="C:\Users\Student\Desktop\Site Wiktor i Denis\Images\1x\ToneSchool_White.png" >
+           
+           </div>
+         
+           <div id="trapezoid">
+         
+             
+         
+             <a class="sub-home" href="#">HOME</a>
+             <a href="Home.html" class="expandHome">Начало</a>
+              <div class="subnav">
+            <a href="www.google.com"> Относно</a>
+             </div>
+           
+              <div class="subnav">
+              <a href="player.html"> Player </a>
+               </div>
+             <a href="contact.html" class="expandHome">Контакти</a>
+            
+           </div>
+           
+         
+         
+         </div>
+
+
+    <div class="contacti">
+      <h1>Контакти</h1>
+      <form name="myForm" action="mailto:daz_2019g@pgiblg.bg" method="post">
+         <table class="form-style">
+            <tr>
+               <td>
+                  <label>
+                     Име <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="text" name="name" class="long"/>
+                  <span class="error" id="errorname"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                   E-mail <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="email" name="email" class="long"/>
+                  <span class="error" id="erroremail"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Съобщение <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <textarea name="message" class="long field-textarea"></textarea>
+                  <span class="error" id="errormsg"></span>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <input type="submit" value="Изпрати">      
+                  <input type="reset" value="Изчисти"> 
+               </td>
+            </tr>
+         </table>
+      </form>
+    </div>
+   </body>
+</html>
